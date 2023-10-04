@@ -3,3 +3,7 @@ const twoSort = s =>{
     return i!=0?e.padStart(4,"*"):e
   }).join("")
 }
+
+function twoSort(s) {
+  return s.sort()[0].split('').join('***');
+}
